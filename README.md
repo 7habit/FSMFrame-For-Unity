@@ -2,20 +2,20 @@
 专为Unity项目的使用的FSM有限状态机框架
 
 ## 文件结构
-EventState.cs
-  事件和参数封装
-  事件类型枚举
-State.cs
-  状态构造
-  状态绑定/移除事件
-  状态运行/停止
-StateMachine.cs
-  状态机构造
-  状态机绑定默认子状态
-  状态机绑定过渡状态及条件
-  状态机的运行/停止
-MonoHelper.cs
-  unity更新事件执行协程
+- EventState.cs
+  - 事件和参数封装
+  - 事件类型枚举
+- State.cs
+  - 状态构造
+  - 状态绑定/移除事件
+  - 状态运行/停止
+- StateMachine.cs
+  - 状态机构造
+  - 状态机绑定默认子状态
+  - 状态机绑定过渡状态及条件
+  - 状态机的运行/停止
+- MonoHelper.cs
+  - unity更新事件执行协程
 ## 使用
 1. unity场景挂载cs文件
 需挂载MonoHelper.cs，可调整更新事件的更新时间间隔，默认1帧更新一次
